@@ -1,10 +1,13 @@
+//Convert Doller Program 
+let converDoller= (doller) =>{
 
-let value = prompt("Enter the Doller");
+if(typeof doller === 'number'){
+return doller * 82
 
-var converDoller= (doller) =>{
-    return doller * 82
+}else{
+    throw Error("Only Enter Numbers")
+}
 }
 
-
-document.write(converDoller(value),"\n\nRupee");
+document.write(converDoller(1000),"\nIndian Rupee");
 
