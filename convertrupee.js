@@ -2,7 +2,7 @@
 let value = prompt("Enter the Doller");
 
 var converDoller= (doller) =>{
-    return doller * 82.38
+    return doller * 82
 }
 
 
