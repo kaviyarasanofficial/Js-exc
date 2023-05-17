@@ -7,10 +7,15 @@ let converDoller= (doller) =>{
     }else{
         throw Error("Only Enter Numbers")
     }
+
     }
     
-
-    document.write(converDoller(100),"\nIndian Rupee");
+    try {
+        document.write(converDoller("m"),"\nIndian Rupee");
+    } catch (error) {
+        console.log(error);
+    }
     
-    document.write("thanks for visting")
+    
+    console.log("thanks for visting")
     
