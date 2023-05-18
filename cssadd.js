@@ -9,7 +9,6 @@ function changeblue(){
     var bg=document.querySelector('body')
     bg.style.background='blue'  
 
-
 }
 function changeblack(){
 
