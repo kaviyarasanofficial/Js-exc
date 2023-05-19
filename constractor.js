@@ -9,6 +9,7 @@ class say{
     //     in() {
     //     document.write("hi" + this.name1);
     //     }
+    
     constructor(a,b){
         this.name1 = a;
         this.name2= b;
